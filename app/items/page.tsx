@@ -16,7 +16,7 @@ const Items = () => {
           </thead>
           <tbody>
             {location.items.map((item) => (
-              <tr className="bg-zinc-200 text-zinc-950 border-b border-zinc-800">
+              <tr className="bg-zinc-200 text-zinc-950 border-b border-zinc-800" key={item.id}>
                 <td className="px-3 py-1 font-semibold border-r border-zinc-800">{item.name}</td>
                 <td className="px-3 py-1">{item.detail}</td>
               </tr>
