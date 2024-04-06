@@ -5,7 +5,7 @@
 body {
   background-color: #000;
   color: #e5e7eb;
-  margin-bottom: 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .is-invalid {
@@ -18,8 +18,4 @@ body {
   --tw-ring-color: rgb(239 68 68 / var(--tw-ring-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-caption {
-  margin: 2px;
 }
